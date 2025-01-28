@@ -1,0 +1,28 @@
+.logo{
+    display: flex; /* Включаем Flexbox */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    height: 50px; /* Задаем высоту контейнера */
+    background-color: #f0f0f0; /* Цвет фона для наглядности */
+}
+
+.menu{
+    display: flex; /* Включаем Flexbox */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    height: 50px; /* Задаем высоту контейнера */
+    background-color: #f0f0f0; /* Цвет фона для наглядности */
+}
+
+.custom-link {
+    color: black; /* Цвет текста ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.custom-link:hover {
+    color: darkgray; /* Цвет текста при наведении */
+}
+
+.custom-link:active {
+    color: black; /* Цвет текста при нажатии */
+}

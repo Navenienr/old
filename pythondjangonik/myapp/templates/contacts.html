@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КОД безопасности</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css1/style.css' %}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <b><div class="logo">КОД безопасности</div></b>
+            <div class="search">
+                <input type="text" placeholder="Найти на сайте">
+            </div>
+            <nav class="nav">
+                <li><a href="index.html" class="nav-btn">Главная</a></li>
+                <li><a href="about.html" class="nav-btn">О нас</a></li>
+                <li><a href="contacts.html" class="nav-btn">Контакты</a></li>
+            </nav>
+            <button class="btn">Войти</button>
+        </div>
+    </header>
+<main>
+    <h2 class="section-title">Контакты экстренных служб:</h2>
+<div class="events">
+  <div class="event-row">
+    <div class="event">
+      <img src="{% static "images1/foto2.jpg" %}" alt="Фото" class="event-image" />
+      <div class="event-info">
+        <h3>Полиция</h3>
+        <p class="event-details">
+          <span>Номер:</span> <span>102</span><br />
+          <span>Описание:</span><span>Обеспечение общественного порядка.</span>
+        </p>
+      </div>
+    </div>
+    <div class="event">
+      <img src="{% static "images1/foto3.jpg" %}" alt="Фото" class="event-image" />
+      <div class="event-info">
+        <h3>Скорая помощь</h3>
+         <p class="event-details">
+           <span>Номер:</span> <span>103</span><br />
+           <span>Описание:</span><span>Оказание экстренной медицинской помощи.</span>
+        </p>
+      </div>
+    </div>
+    <div class="event">
+      <img src="{% static "images1/foto4.jpg" %}" alt="Фото" class="event-image" />
+      <div class="event-info">
+        <h3>Пожарная служба</h3>
+        <p class="event-details">
+          <span>Номер:</span> <span>101</span><br />
+          <span>Описание:</span><span>Ликвидация пожаров и спасательные работы.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="event-row">
+     <div class="event">
+       <img src="{% static "images1/foto5.jpg" %}" alt="Фото" class="event-image" />
+       <div class="event-info">
+           <h3>Служба газа</h3>
+           <p class="event-details">
+             <span>Номер:</span> <span>104</span><br />
+             <span>Описание:</span><span>Устранение утечек газа.</span>
+        </p>
+        </div>
+      </div>
+      <div class="event">
+        <img src="{% static "images1/foto6.jpg" %}" alt="Фото" class="event-image" />
+         <div class="event-info">
+           <h3>МЧС</h3>
+           <p class="event-details">
+             <span>Номер:</span> <span>112</span><br />
+             <span>Описание:</span><span>Комплексные спасательные работы.</span>
+          </p>
+       </div>
+      </div>
+      <div class="event">
+       <img src="{% static "images1/foto7.jpg" %}" alt="Фото" class="event-image" />
+         <div class="event-info">
+           <h3>Аварийная служба</h3>
+           <p class="event-details">
+             <span>Номер:</span> <span>115</span><br />
+            <span>Описание:</span><span>Устранение коммунальных аварий.</span>
+        </p>
+        </div>
+      </div>
+  </div>
+</div>
+    </main>
+    <footer>
+        <p class="footer-text">Чумаков Н. Д. АТП-232</p> 
+      </footer>
+</body>
